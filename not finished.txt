@@ -1,0 +1,30 @@
+[data set name]
+
+      hd: import
+  new_hd: import + missing data
+ new_hd2: import + missing data + scale
+ new_hd3: import + missing data + factor
+----------------------------------
+
+[model name]
+
+  decision tree: decision_fit
+  random forest: model_rf
+        xgboost: model_xgb
+-------------------------------------
+
+[testing data validation predict( ) name]
+
+  decision tree: decision_pred
+  random forest: model_rf_pred
+        xgboost: xgb_pred
+---------------------------------------
+
+Not finished:
+		pca: description
+	correlation: maybe more description
+		xgb: set.seed( ), description about the model and accuracy
+  feature selection: More description and the code for recursive feature elimination
+  model improvement: More description and the code
+
+Please add or remove anything you like! let me know if any question you may have.
